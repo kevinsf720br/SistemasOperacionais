@@ -206,7 +206,7 @@ class BrincadeiraCriancasApp:
         while True:
             if tem_bola:
                 # --- ESTADO: BRINCANDO ---
-                self.atualizar_status(id_criança, "⚽ Brincando", "#4CAF50", "⚽", self.COL_BRINCANDO)
+                self.atualizar_status(id_crianca, "⚽ Brincando", "#4CAF50", "⚽", self.COL_BRINCANDO)
                 self.passar_tempo_ativo(tb)
 
                 # --- ESTADO: COLOCAR BOLA NO CESTO ---
